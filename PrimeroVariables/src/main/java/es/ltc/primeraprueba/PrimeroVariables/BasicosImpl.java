@@ -8,14 +8,15 @@ public class BasicosImpl implements Basicos {
 
 	@Override
 	public boolean esPar(int y) {
+		return false;
 		
-		return (y%2)==0;
+	
 	}
 
 	@Override
 	public boolean esImpar(int y) {
-		
-		return (y%2)!=0;
+		return false;
+	
 	}
 	
 
