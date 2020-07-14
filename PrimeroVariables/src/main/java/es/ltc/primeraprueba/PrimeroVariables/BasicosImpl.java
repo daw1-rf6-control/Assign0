@@ -8,14 +8,14 @@ public class BasicosImpl implements Basicos {
 
 	@Override
 	public boolean esPar(int y) {
-		// TODO Auto-generated method stub
-		return false;
+		
+		return (y%2)==0;
 	}
 
 	@Override
 	public boolean esImpar(int y) {
-		// TODO Auto-generated method stub
-		return false;
+		
+		return (y%2)!=0;
 	}
 	
 
